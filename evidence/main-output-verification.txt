@@ -1,0 +1,1 @@
+PASS: all 15 console lines match independently specified expected output.

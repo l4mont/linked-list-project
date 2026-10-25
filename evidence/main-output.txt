@@ -1,0 +1,15 @@
+Forward: Head -> 10 -> 20 -> 30 -> 40 -> 50 -> None
+Backward: Head -> 50 -> 40 -> 30 -> 20 -> 10 -> None
+Insert 25 after 20: Head -> 10 -> 20 -> 25 -> 30 -> 40 -> 50 -> None
+Remove 10: Head -> 20 -> 25 -> 30 -> 40 -> 50 -> None
+Before remove_all(30): Head -> 20 -> 25 -> 30 -> 40 -> 50 -> 30 -> None
+Removed matches: 2
+After remove_all(30): Head -> 20 -> 25 -> 40 -> 50 -> None
+Source before split: Head -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> None
+Evens: Head -> 2 -> 4 -> 6 -> 8 -> None
+Odds: Head -> 1 -> 3 -> 5 -> 7 -> None
+Source after split: Head -> None
+Counts (source, evens, odds): 0 4 4
+Inherited prepend and append: Head -> 9 -> 12 -> None
+Inherited contains(12): True
+Handled error: Cannot remove: 99 is not in the list.
