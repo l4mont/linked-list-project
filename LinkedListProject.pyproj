@@ -11,6 +11,7 @@
     <TestFramework>unittest</TestFramework>
     <UnitTestRootDirectory>.</UnitTestRootDirectory>
     <UnitTestPattern>test_*.py</UnitTestPattern>
+    <InterpreterId>MSBuild|Python312|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="main.py" />
@@ -19,5 +20,6 @@
     <Compile Include="test_singly_linked_list.py" />
     <Compile Include="test_split_evens_odds.py" />
   </ItemGroup>
+  <Import Project="$(MSBuildProjectFullPath).user" Condition="Exists('$(MSBuildProjectFullPath).user')" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>

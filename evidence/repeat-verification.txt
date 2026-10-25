@@ -1,0 +1,7 @@
+Verified October 25, 2026
+Visual Studio Community 2026, Python 3.12.14
+Fresh final run: 32 Passed, 0 Failed, 0 Skipped, 0 Warnings, 0 Errors.
+Visual Studio reported 11.8 seconds for the final run.
+An earlier repeat executed 32 tests successfully but missed the finish notification; the final retry completed cleanly.
+Additional deterministic checks with seed 223: 2,000 operations matched a Python-list model with structural checks after each operation; 200 random splits preserved ordered node identities and emptied the source.
+No linked-list implementation changes were needed.
