@@ -35,3 +35,17 @@ with a fresh chain and do not change their Python-list inputs.
 - Study references are retained unchanged under study_materials/.
 
 IDE: Visual Studio.
+
+## Visual Studio
+
+Open LinkedListProject.pyproj in Visual Studio with Python development support.
+Select a Python 3.12 environment, then choose Test > Run All Tests. main.py is
+the startup file; press F5 to run the demonstration.
+
+Visual Studio Community 2026 Test Explorer passed all 32 tests with Python
+3.12.14: 0 failed, 0 skipped, 0 warnings, and 0 errors. The demonstration
+produced all 15 expected output lines. See evidence/visual-studio-tests.txt
+and evidence/visual-studio-main-output.txt.
+
+The installed Python 3.14 environment timed out during Visual Studio test
+discovery; Python 3.12 completed discovery and execution successfully.
