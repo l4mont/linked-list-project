@@ -1,0 +1,37 @@
+test_append_empty_and_nonempty (test_singly_linked_list.TestSinglyLinkedList.test_append_empty_and_nonempty) ... ok
+test_backward_build_preserves_input (test_singly_linked_list.TestSinglyLinkedList.test_backward_build_preserves_input) ... ok
+test_builders_reuse_public_operations (test_singly_linked_list.TestSinglyLinkedList.test_builders_reuse_public_operations) ... ok
+test_contains_queries_iteration (test_singly_linked_list.TestSinglyLinkedList.test_contains_queries_iteration) ... ok
+test_empty (test_singly_linked_list.TestSinglyLinkedList.test_empty) ... ok
+test_empty_builders (test_singly_linked_list.TestSinglyLinkedList.test_empty_builders) ... ok
+test_forward_build_preserves_input (test_singly_linked_list.TestSinglyLinkedList.test_forward_build_preserves_input) ... ok
+test_insert_first_match (test_singly_linked_list.TestSinglyLinkedList.test_insert_first_match) ... ok
+test_insert_interior (test_singly_linked_list.TestSinglyLinkedList.test_insert_interior) ... ok
+test_insert_missing_unchanged (test_singly_linked_list.TestSinglyLinkedList.test_insert_missing_unchanged) ... ok
+test_insert_tail (test_singly_linked_list.TestSinglyLinkedList.test_insert_tail) ... ok
+test_node (test_singly_linked_list.TestSinglyLinkedList.test_node) ... ok
+test_prepend_empty_and_nonempty (test_singly_linked_list.TestSinglyLinkedList.test_prepend_empty_and_nonempty) ... ok
+test_remove_all_every_node (test_singly_linked_list.TestSinglyLinkedList.test_remove_all_every_node) ... ok
+test_remove_all_multiple_locations (test_singly_linked_list.TestSinglyLinkedList.test_remove_all_multiple_locations) ... ok
+test_remove_all_no_match (test_singly_linked_list.TestSinglyLinkedList.test_remove_all_no_match) ... ok
+test_remove_first_match (test_singly_linked_list.TestSinglyLinkedList.test_remove_first_match) ... ok
+test_remove_head (test_singly_linked_list.TestSinglyLinkedList.test_remove_head) ... ok
+test_remove_interior (test_singly_linked_list.TestSinglyLinkedList.test_remove_interior) ... ok
+test_remove_missing_unchanged (test_singly_linked_list.TestSinglyLinkedList.test_remove_missing_unchanged) ... ok
+test_remove_only (test_singly_linked_list.TestSinglyLinkedList.test_remove_only) ... ok
+test_remove_tail (test_singly_linked_list.TestSinglyLinkedList.test_remove_tail) ... ok
+test_string (test_singly_linked_list.TestSinglyLinkedList.test_string) ... ok
+test_all_even (test_split_evens_odds.TestSplitEvensOdds.test_all_even) ... ok
+test_all_odd (test_split_evens_odds.TestSplitEvensOdds.test_all_odd) ... ok
+test_empty_error (test_split_evens_odds.TestSplitEvensOdds.test_empty_error) ... ok
+test_inherited_operations (test_split_evens_odds.TestSplitEvensOdds.test_inherited_operations) ... ok
+test_mixed (test_split_evens_odds.TestSplitEvensOdds.test_mixed) ... ok
+test_reference_slide_example (test_split_evens_odds.TestSplitEvensOdds.test_reference_slide_example) ... ok
+test_single_even (test_split_evens_odds.TestSplitEvensOdds.test_single_even) ... ok
+test_single_odd (test_split_evens_odds.TestSplitEvensOdds.test_single_odd) ... ok
+test_zero_negatives_duplicates (test_split_evens_odds.TestSplitEvensOdds.test_zero_negatives_duplicates) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.013s
+
+OK
